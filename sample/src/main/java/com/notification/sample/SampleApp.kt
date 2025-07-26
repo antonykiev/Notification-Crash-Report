@@ -12,6 +12,7 @@ class SampleApp: Application() {
             notification {
                 title = "Sample Notification"
                 message = "This is a sample notification message."
+                icon = R.drawable.ic_danger_icon
             }
         }
     }

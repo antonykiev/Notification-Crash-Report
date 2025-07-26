@@ -7,7 +7,7 @@ import androidx.annotation.DrawableRes
 class NotificationData(
     var title: String = "Application Crash",
     var message: String = "An error occurred:",
-    @DrawableRes val icon: Int = R.drawable.ic_dialog_alert,
+    @DrawableRes var icon: Int = R.drawable.ic_dialog_alert,
     var notificationId: Int = 1001,
     var notificationChannelDescription: String = "Channel for exception notifications",
     var notificationChannelName: String = "Exception Channel",
