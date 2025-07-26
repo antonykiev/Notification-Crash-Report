@@ -14,9 +14,13 @@ Add the following line inside the `<manifest>` tag in your `AndroidManifest.xml`
 
 ### Gradle settings
 ```kotlin
-repositories {
+dependencyResolutionManagement {
+  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+  repositories {
+    google()
     mavenCentral()
     maven { url = uri("https://jitpack.io") }
+  }
 }
 
 dependencies {
