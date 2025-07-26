@@ -20,7 +20,7 @@ repositories {
 }
 
 dependencies {
-  implementation("com.github.antonykiev:Notification-Crash-Report:1.0")
+  implementation("com.github.antonykiev:Notification-Crash-Report:1.1")
 }
 
 ```

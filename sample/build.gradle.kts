@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":library"))
+    implementation("com.github.antonykiev:Notification-Crash-Report:1.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
